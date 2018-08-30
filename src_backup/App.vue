@@ -15,22 +15,22 @@
                   <ul class="sidebar-menu">
                     <li class="header">MAIN NAVIGATION</li>
                     <li class="treeview">
-                      <router-link to="/user">
+                      <a href="tabel.html">
                         <i class="fa fa-table"></i>
                         <span>User</span>
-                      </router-link>
+                      </a>
                     </li>
                     <li class="treeview">
-                      <router-link to="/category">
+                      <a href="form.html">
                         <i class="fa fa-table"></i>
                         <span>Kategori</span>
-                      </router-link>
+                      </a>
                     </li>
                     <li class="treeview">
-                      <router-link to="/news">
+                      <a href="detail.html">
                         <i class="fa fa-edit"></i>
                         <span>Berita</span>
-                      </router-link>
+                      </a>
                     </li>
                   </ul>
                 </div>

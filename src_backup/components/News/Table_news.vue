@@ -246,7 +246,7 @@
 import  NewsApi  from "@/service/api/News";
 import Pagination from "laravel-vue-pagination";
 export default {
-    name: 'table_news',
+    name: 'Table_news',
     components:{
         'app-pagination': Pagination,
     },
@@ -282,7 +282,7 @@ export default {
 		// Our method to GET results from a Laravel endpoint
         closeModal() {
             $('.modal').modal('hide')
-            this.status = null;
+            this.status = null
 
         },
         initAdd() {
